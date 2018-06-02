@@ -1,0 +1,278 @@
+#searchresult option {
+  height: 15px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #333333;
+}
+
+.followbutton {
+  font-family: 'Roboto';
+  margin-left: 3%;
+  font-size: 17px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 5px;
+  background-color: dodgerblue;
+  border-radius: 5px;
+  color:white;
+  border: 0;
+  cursor: pointer;
+  padding-top:2px;
+  padding-bottom:2px;
+}
+
+.unfollowbutton {
+  font-family: 'Roboto';
+  margin-left: 3%;
+  font-size: 17px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 5px;
+  background-color: white;
+  border-radius: 5px;
+  color:black;
+  border: 1px solid gray;
+  cursor: pointer;
+  padding-top:2px;
+  padding-bottom:2px;
+}
+
+
+.tooltip-inner {
+    background-color: #444444;
+}
+
+.bendolinepost {
+  border: 1px solid lightgray;
+  margin-bottom: 40px;
+  padding:0;
+  font-size: 26px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.bendolinepostinfo {
+  height: 40px;
+  border-bottom: 1px solid lightgray;
+  padding-left: 15px;
+  background-color: #eaeff7;
+  margin-bottom: 10px;
+}
+
+.bendolineimage {
+  width: 90%;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+}
+
+
+.bendolinedate {
+  position:absolute;
+  right: 3%;
+  font-size: 11px;
+  margin-top: 24px;
+}
+
+.utilitiebendoline {
+  font-size: 16px;
+  padding: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btndescription {
+  background-color: white;
+  border:0;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-top: -10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  cursor: pointer;
+  color: #444444;
+  border-bottom: 2px solid lightgray;
+}
+
+.authorinmodal {
+  margin-left: 15px;
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  color: #555555;
+  cursor: pointer;
+  margin-top: 7px;
+  padding: 0;
+  max-width:5%;
+  margin-bottom: -10px;
+}
+
+.authorinmodal:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #999999;
+}
+
+
+.btnsendcomment {
+  background-color:transparent;
+  border: 1px solid lightgray;
+  margin-top: -19px;
+  right: 3%;
+  color:#222222;
+  position:absolute;
+  cursor:pointer;
+}
+
+.btnsendcomment:hover {
+  color: #555555;
+}
+
+.deletebtn {
+  background-color: #ea3c3c;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  color:white;
+  margin-bottom: 50px;
+}
+
+.btnwhite {
+  background-color: white;
+  border: 1px solid gray;
+  color: #444444;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.btnwhite:hover {
+  border: 1px solid #888888;
+  color: #777777;
+}
+
+
+
+/**
+ * Demo Styles
+ */
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+
+span.text-content {
+  background: rgba(0,0,0,0.15);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 328px;
+  z-index: 4;
+  position: absolute;
+  width: 28.3%;
+  opacity: 0;
+}
+
+span.text-content span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.labelpost:hover span.text-content {
+  opacity: 1;
+}
+
+.explorespan {
+  text-align: center;
+  display:block;
+  font-size: 22px;
+  color: gray;
+  letter-spacing: 1.5px;
+}
+
+
+.mainfooter {
+  min-height:26px;
+  border-top: 1px solid lightgray;
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  margin-top: 60px;
+  font-size: 16px;
+  letter-spacing: .5px;
+  background-color: #eeeeee;
+  text-align: center;
+  color:#444444;
+}
+
+
+.authorinbendoline {
+  color: #555555;
+  text-decoration: none;
+}
+
+.authorinbendoline:hover {
+  color: #888888;
+  text-decoration: none;
+}
+
+.form-control {
+  border-radius: 2px;
+}
+
+.editdivform {
+  margin-left: 5px;
+}
+
+.editdivform .form-control {
+  padding:3px;
+  width: 85%;
+  color: gray;
+  margin-bottom: 16px;
+}
+
+.nameedit {
+  display:  block;
+}
+
+.buttonmodalreport {
+  border:0;
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+  line-height: 38px;
+  color: #444444;
+  background-color: #eeeeee;
+  text-align: center;
+  border-bottom: 1px solid #cccccc;
+}
+
+.buttonmodalreport:hover {
+  color: #888888;
+  cursor: pointer;
+}
+
+
+.profilebuttons {
+  border-bottom: 1px solid lightgray;
+  padding: 5px;
+  font-family: 'Roboto', sans-serif;
+  color: #444444;
+  text-decoration: none;
+  font-size: 18px;
+  background-color: white;
+  line-height: 15px;
+  border-radius: 5px;"
+}
+
+.profilebuttons:hover {
+  color: #777777;
+  cursor: pointer;
+  text-decoration: none;
+}

@@ -1,0 +1,36 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// resources/assets/sass/app.scss
+// Font Awesome
+@import "~font-awesome/scss/font-awesome.scss";
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+
+
+[id='toggle-heart'] {
+  position: absolute;
+  left: -100vw;
+
+    &:checked + label {
+        color: #e2264d;
+    }
+}
+
+[for='toggle-heart'] {
+    align-self: center;
+    color: #aab8c2;
+    font-size: 2em;
+    cursor: pointer;
+}
